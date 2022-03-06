@@ -10,7 +10,6 @@ body {
 
 .part-1{
    background: #1f2937;
-   width: 100%;
    display:flex;
    justify-content: center;
    flex-direction: column;
@@ -90,7 +89,6 @@ img {
     text-align: center;
     font-weight: 900;
     font-size: 36px;
-    font
 }
 
 .part-2{
@@ -116,8 +114,49 @@ img {
 .boxh{
  display: flex;
  flex-direction: column;
- width: 150px;
+ max-width: 150px;
  text-align: center;
  gap: 10px;
  color: darkslategrey;
+ margin-bottom: 100px;
+}
+
+.part-3{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+}
+
+.quote{
+    
+    color: #1f2937;
+    font-size: 36px;
+    width: 850px;
+    font-style:italic;
+    display:flex;
+    flex-direction:column;
+}
+
+.from{
+    align-self: flex-end;
+    font-weight:900;
+    margin-right: 50px;
+}
+
+.part-4{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.cta{
+    height: 150px;
+    width: 900px;
+    background-color:#3882f6;
+    width: 70%;
 }
