@@ -150,13 +150,39 @@ img {
     display:flex;
     justify-content: center;
     align-items: center;
-    
-    
+    padding-top: 90px;
+    padding-bottom: 90px;   
 }
 
 .cta{
     height: 150px;
-    width: 900px;
+    width: 950px;
     background-color:#3882f6;
-    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    color: #f9faf8;
+}
+
+.ctat{
+    display: flex;
+    font-weight: 900;
+    flex-direction: column;
+    font-size: 24px;
+
+}
+.button2 button{
+    background:#3882f6;
+    color:#f9faf8;
+    padding: 4px 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.ctaut{
+    font-weight:100;
+    font-size: 16px;
 }
